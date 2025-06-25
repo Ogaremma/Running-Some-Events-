@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Events & Prevent Default</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>A Form In Progress</h1>
+
+    <form action="/shelter" id="shelterForm">
+        <label for="name">Name:</label>
+        <input type="text" id="catName" required />
+        <button>Submit</button>
+    </form>
+
+    <h2>Available Cats</h2>
+    <ul id="catList"></ul>
+
+    <form action="/dogs" id="tweetForm">
+        <label for="dogName">Name:</label>
+        <!-- <input type="text" name="username" placeholder="username"> -->
+        <input type="text" name="tweet" placeholder="tweet" required>
+        <button>Post</button>
+    </form>
+
+    <h3>Tweets</h3>
+    <ul id="tweetList"></ul>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

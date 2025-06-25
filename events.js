@@ -17,6 +17,7 @@ const tasButton = document.querySelector('#tas');
 tasButton.addEventListener('click', twist);
 tasButton.addEventListener('click', shout);
 
+// This code selects an element with the id 'hello' and adds an event listener to it that logs "hello" when clicked.
 const hello = document.querySelector('#hello');
 
 hello.addEventListener('click', function () {

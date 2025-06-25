@@ -3,8 +3,8 @@ mainBtn.addEventListener('click', () => {
     alert('Button was clicked!');
 });
 
-function twist() {
-    console.log('Twist!');
+function curlyLaunch() {
+    console.log('Curly brace somehow makes things complicated!');
 }
 
 function shout() {
